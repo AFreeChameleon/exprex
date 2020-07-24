@@ -109,7 +109,7 @@ const middlewareState = {
         (req, res, next) => {console.log('testUse');next()},
     ],
     set: [
-        ['test', 'variable']
+        ['view engine', 'ejs']
     ],
     engine: [
         ['html', 'haml']
