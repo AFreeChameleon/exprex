@@ -77,10 +77,6 @@ const DeleteIndex = (req, res) => {
     return res.send('DeleteIndex')
 }
 
-const AllTest = (req, res) => {
-    return res.send('alltest')
-}
-
 const routeState = {
     get: {
         '/': {
